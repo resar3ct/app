@@ -15,7 +15,7 @@ add.onclick = event => {
     
     li.innerHTML = listitem.value;
     
-    button.className = "close";
+    button.className = "quit";
     button.innerHTML = "\u00D7";
     
     li.appendChild(button);
